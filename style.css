@@ -1,0 +1,37 @@
+.dong_ho {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+#gio {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#phut {
+    justify-content: flex-end;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#giay {
+    justify-content: flex-end;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #FFA17F;
+    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);
+    background: linear-gradient(to right, #00223E, #FFA17F);
+}
