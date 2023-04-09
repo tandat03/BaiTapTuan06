@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: chartreuse;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: aqua;
+    color: brown;
+}
+
+.results {
+    display: flex;
+    justify-content: stretch;
+    height: 50px;
+    border: 10px;
+}
+
+.result {
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.button {
+    flex-grow: 1;
+    text-align: center;
+    margin: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 30px;
+}
